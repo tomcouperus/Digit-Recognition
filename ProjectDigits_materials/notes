@@ -1,0 +1,8 @@
+#100 percent not expected as some drawings are ambigous, maybe find example of ambigous drawings in the training set.
+# .Can do data augmentation, can add features etc. Make sure we know difference between test train and validation. 
+# Do CNN, could compare a standard MLP with a CNN for extra points. as it isnt clear why CNN is good for the task, so we can investigate this
+# cnn good under certain conditions. Need to think how the 2 work. If we know the basic idea which motivates the CNN (find out which tasks CNN makes 
+# sense for). Note the dataset is very small, overfitting danger is real. If netwrok too big and we don't do careful regularisation we will overfit,
+# so we should know how to do this and document this nicely. Document which alphas (and other parameters) we investigated etc, but don't need to say the
+# the result for all of them. At the end show the results on the testing data. Shouldn't test it too often on the testing data, as we will get information
+# back flow. Shouldn't use testing until the final, use validation to optimise the model until we find the best one and then we use it on the test one. 
